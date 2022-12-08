@@ -1,0 +1,177 @@
+body{
+    border:2px solid crimson;
+}
+.heading{
+    margin:30px;
+}
+.header{
+    margin:auto;
+    color: black;
+    height:40px;
+    background-image:linear-gradient(20deg,red,green,yellow);
+    text-align: center;
+    text-decoration: underline;
+
+}
+.menu{
+    border: 5px solid red;
+    border-radius: 20px;
+    width: 700px;
+    text-align: center;
+    padding: 2px;
+    list-style: disc inside;
+    background-color: rgb(170, 222, 228);
+    width: 800px;
+    margin: auto;
+}
+.home{
+    position:relative;
+    right: 6px;
+}
+.box{
+    grid-template-rows: auto,auto,auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px solid crimson;
+    border-radius: 25px;
+    margin-top: 25px;
+    height: 300px;
+    background-color: aquamarine;
+    text-align: center;
+}
+.box1{
+    border: 5px solid red;
+    border-radius: 20px;
+    width: 400px;
+    height: 100px;
+    padding: 8px;
+}
+.box2{
+    border: 5px solid red;
+    border-radius: 20px;
+    width: 400px;
+    height: 100px;
+    padding: 8px;
+}
+.box3{
+    border: 5px solid red;
+    border-radius: 20px;
+    width: 400px;
+    height: 100px;
+    padding: 8px;
+}
+.box4{
+    border: 5px solid red;
+    border-radius: 20px;
+    width: 400px;
+    height: 100px;
+    padding: 8px;
+}
+.topper{
+    background-image: linear-gradient(35deg,red, yellow, orange);
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: brown;
+    margin: auto;
+    height: 40px;
+    color: black;
+}
+.block{
+    height: 300px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid green;
+    background-image: repeating-radial-gradient(rgb(40, 40, 206),rgb(81, 196, 81));
+    margin-bottom: 18px;
+}
+.block > div{
+    border: 2px solid red;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    color: brown;
+    background-color: yellow;
+    line-height: 20px;
+    text-decoration: underline;
+}
+.connect {
+    border: 1px solid black;
+    height: auto;
+    display: grid;
+    grid-template-rows: 50px 100px 159px 25px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-areas:
+        "item1 item1 item1 item1"
+        "item2 item3 item4 item5"
+        "item6 item6 item6 item5"
+        "item7 item7 item7 item7";
+    gap: 8px;
+}
+
+#item1{
+grid-area: item1;
+background-color: red;
+color: white;
+font-size: 25px;
+font-weight: bold;
+text-align: center;
+}
+
+#item2{
+grid-area: item2;
+background-color: green;
+color: white;
+font-size: 25px;
+font-weight: bold;
+text-align: center;
+}
+#item3{
+grid-area: item3;
+background-color: rgb(8, 50, 67);
+color: white;
+font-size: 25px;
+font-weight: bold;
+
+}
+#item4{
+grid-area: item4;
+background-color: rgb(0, 0, 248);
+color: white;
+font-size: 25px;
+font-weight: bold;
+
+}
+#item5{
+grid-area: item5;
+background-color: black;
+color: white;
+font-size: 18px;
+font-weight: bold;
+
+}
+#item6{
+grid-area: item6;
+background-color: orange;
+color: white;
+font-size: 25px;
+font-weight: bold;
+
+}
+#item7{
+grid-area: item7;
+background-color: aquamarine;
+color: black;
+font-size: 25px;
+font-weight: bold;
+text-align: center;
+
+}
+
+
+
+
+
